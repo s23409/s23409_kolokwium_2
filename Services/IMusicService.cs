@@ -7,5 +7,6 @@ namespace s23409_kolokwium_2.Services
 {
     public interface IMusicService
     {
+        public Task<Models.DTOs.Album> GetAlbum(int IdAlbum);
     }
 }
