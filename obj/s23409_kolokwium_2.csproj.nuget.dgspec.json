@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Szkoła\\Studia\\APBD\\training\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj": {}
+    "C:\\Users\\s23409\\Desktop\\kolos\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj": {}
   },
   "projects": {
-    "D:\\Szkoła\\Studia\\APBD\\training\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj": {
+    "C:\\Users\\s23409\\Desktop\\kolos\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Szkoła\\Studia\\APBD\\training\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj",
+        "projectUniqueName": "C:\\Users\\s23409\\Desktop\\kolos\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj",
         "projectName": "s23409_kolokwium_2",
-        "projectPath": "D:\\Szkoła\\Studia\\APBD\\training\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj",
-        "packagesPath": "C:\\Users\\matic\\.nuget\\packages\\",
-        "outputPath": "D:\\Szkoła\\Studia\\APBD\\training\\s23409_kolokwium_2\\obj\\",
+        "projectPath": "C:\\Users\\s23409\\Desktop\\kolos\\s23409_kolokwium_2\\s23409_kolokwium_2.csproj",
+        "packagesPath": "C:\\Users\\s23409\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\s23409\\Desktop\\kolos\\s23409_kolokwium_2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\matic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\s23409\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -83,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

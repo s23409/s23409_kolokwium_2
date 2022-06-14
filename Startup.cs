@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using s23409_kolokwium_2.Models;
 
 namespace s23409_kolokwium_2
 {
@@ -27,10 +28,10 @@ namespace s23409_kolokwium_2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IMedService, MedService>();
-            services.AddDbContext<MedDbContext>(opt =>
+            ///services.AddScoped<IMusicService, MusicService>();
+            services.AddDbContext<MusicDbContext>(opt =>
             {
-                opt.UseSqlServer("Default");
+                opt.UseSqlServer(Configuration.GetConnectionString("default"));
             });
 
             services.AddControllers();
